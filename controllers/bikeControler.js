@@ -4,8 +4,13 @@ const router = express.Router();
 const bikeList = require('../models/bikes');
 
 router.get('/', (req, res) => {
-  res.render('bikes.ejs', {bikeList})
+  res.render('index.ejs', {bikeList})
 });
+
+router.delete('/:index', (req, res) => {
+  bikeList.splice(req.params.index, 1);
+  res.redirect('/bikes');
+})
 
 
 
