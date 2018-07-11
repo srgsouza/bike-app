@@ -1,27 +1,27 @@
 const bikes = [
-  {
-    type: 'road',
-    frame: 'pinarello',
-    frameMaterial: 'carbon fiber',
+  {    
+    name: 'pinarello',
+    frame: 'carbon fiber',
     group: 'campagnolo',
+    type: 'road'
   }, 
   {
-    type: 'road',
-    frame: 'all city',
-    frameMaterial: 'steel',
+    name: 'all city',
+    frame: 'steel',
     group: 'campagnolo',
+    type: 'road'
   }, 
   {
-    type: 'mountain',
-    frame: 'moots',
-    frameMaterial: 'titanium',
+    name: 'moots',
+    frame: 'titanium',
     group: 'sram',
+    type: 'road'
   }, 
   {
-    type: 'mountain',
-    frame: 'specialized',
-    frameMaterial: 'carbon fiber',
+    name: 'specialized',
+    frame: 'carbon fiber',
     group: 'shimano',
+    type: 'road'
   }, 
 ]
 
