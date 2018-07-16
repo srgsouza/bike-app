@@ -1,12 +1,12 @@
 const bikes = [
   {    
-    name: 'pinarello',
+    name: 'Pinarello',
     frame: 'carbon fiber',
     group: 'campagnolo',
     type: 'road'
   }, 
   {
-    name: 'all city',
+    name: 'Eddy Merckx',
     frame: 'steel',
     group: 'campagnolo',
     type: 'road'
@@ -15,13 +15,13 @@ const bikes = [
     name: 'moots',
     frame: 'titanium',
     group: 'sram',
-    type: 'road'
+    type: 'mountain'
   }, 
   {
     name: 'specialized',
     frame: 'carbon fiber',
     group: 'shimano',
-    type: 'road'
+    type: 'mountain'
   }, 
 ]
 

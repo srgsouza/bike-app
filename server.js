@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
+require('./db/db');  // How is this used/called by this file?
 
 const app = express();
-
 const port = 3000;
 
 // middleware
@@ -18,6 +18,7 @@ app.use('/bikes', bikeController);
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
 
 module.exports = app;
 

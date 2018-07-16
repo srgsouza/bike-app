@@ -7,17 +7,17 @@
 </head>
 <body>
   
-  <h1>Bikes Edit Page</h1>
+  <div class="container">
+    <h1>Bikes - Edit </h1>
 
-
-  <form method="POST" action="/bikes/<%= index %>?_method=PUT">
-    Bike: <input type="text" name="name" value="<%= bike.name%> ">
-    Frame: <input type="text" name="frame" value="<%= bike.frame%> ">
-    Group: <input type="text" name="group" value="<%= bike.group %> ">
-    Type: <input type="text" name="type" value="<%= bike.type %> ">
-    <input type="submit" value="Submit Change">
-  </form>
-
+    <form method="POST" action="/bikes/<%= id %>?_method=PUT">
+      Bike: <input type="text" name="name" value="<%= bike.name%> "> </br>
+      Frame: <input type="text" name="frame" value="<%= bike.frame%> "> </br>
+      Group: <input type="text" name="group" value="<%= bike.group %> "> </br>
+      Type: <input type="text" name="type" value="<%= bike.type %> "> </br>
+      <input type="submit" value="Submit Change">
+    </form>
+  </div>
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
